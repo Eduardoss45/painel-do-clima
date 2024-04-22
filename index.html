@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <input
+        class="search-city"
+        type="text"
+        placeholder="Digite o nome da cidade"
+      />
+      <button class="submit-search" onclick="searchCity()">
+        <img src="https://www.svgrepo.com/show/488200/find.svg" alt="Buscar" />
+      </button>
+      <div class="info-container">
+        <h2 class="city-name">Tempo em São paulo</h2>
+        <p class="temperature">21°C</p>
+        <div class="weather-status">
+          <img
+            class="image-weather" src="https://openweathermap.org/img/wn/04n.png"
+            alt="Icone da informação do tempo"
+          />
+          <p class="weather-text">Nublado</p>
+        </div>
+        <p class="moisture">Umidade: 76%</p>
+      </div>
+    </div>
+  </body>
+</html>
